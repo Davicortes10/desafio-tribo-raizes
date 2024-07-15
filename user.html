@@ -1,0 +1,43 @@
+<!-- user.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Clientes</h1>
+    <form id="userForm">
+        <input type="hidden" id="userId">
+        <label for="userName">Nome:</label>
+        <input type="text" id="userName">
+        <label for="userCpf">CPF:</label>
+        <input type="text" id="userCpf">
+        <label for="userEmail">Email:</label>
+        <input type="email" id="userEmail">
+        <label for="userPhone">Telefone:</label>
+        <input type="text" id="userPhone">
+        <label for="userAddress">Endereço:</label>
+        <input type="text" id="userAddress">
+        <button type="submit">Salvar</button>
+    </form>
+    <table id="userTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>CPF</th>
+                <th>Email</th>
+                <th>Telefone</th>
+                <th>Endereço</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="scripts/user.js"></script>
+</body>
+</html>
